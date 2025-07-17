@@ -30,8 +30,9 @@ using (HttpClient client = new HttpClient())
         //musicasPreferidasEmilly.ExibirMusicasFavoritas();
         //musicasPreferidasEmilly.GerarArquivoJson();
 
-        musicas[0].ExibirFichaTecnica();
-        musicas[1].ExibirFichaTecnica();
+        //musicas[0].ExibirFichaTecnica();
+        //musicas[1].ExibirFichaTecnica();
+        LinqFilter.FiltrarMusicasComTonalidadeDoSustenido(musicas);
         //LinqFilter.FiltrarTodosOsGenerosMusicais(musicas);
         //LinqFilter.FiltrarArtistasPorGeneroMusical(musicas);
         //LinqFilter.FiltrarMusicasPorArtista(musicas);

@@ -46,4 +46,12 @@ internal class LinqFilter
         Console.WriteLine($"Exibindo as músicas do artista {artista}");
         musicasFiltradas.ForEach(m => m.ExibirFichaTecnica());
     }
+
+    public static void FiltrarMusicasComTonalidadeDoSustenido(List<Musica> musicas)
+    {
+        var musicasFiltradas = musicas
+            .Where(m => m.Key == 1)
+            .ToList();
+        musicasFiltradas.ForEach(m => m.ExibirFichaTecnica());
+    }
 }
