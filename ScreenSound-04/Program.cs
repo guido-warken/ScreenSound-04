@@ -19,17 +19,19 @@ using (HttpClient client = new HttpClient())
 
         //musicasPreferidasDoDaniel.ExibirMusicasFavoritas();
 
-        var musicasPreferidasEmilly = new MusicasPreferidas("Emy");
+        //var musicasPreferidasEmilly = new MusicasPreferidas("Emy");
 
-        musicasPreferidasEmilly.AdicionarMusicasFavoritas(musicas[500]);
-        musicasPreferidasEmilly.AdicionarMusicasFavoritas(musicas[637]);
-        musicasPreferidasEmilly.AdicionarMusicasFavoritas(musicas[428]);
-        musicasPreferidasEmilly.AdicionarMusicasFavoritas(musicas[13]);
-        musicasPreferidasEmilly.AdicionarMusicasFavoritas(musicas[71]);
+        //musicasPreferidasEmilly.AdicionarMusicasFavoritas(musicas[500]);
+        //musicasPreferidasEmilly.AdicionarMusicasFavoritas(musicas[637]);
+        //musicasPreferidasEmilly.AdicionarMusicasFavoritas(musicas[428]);
+        //musicasPreferidasEmilly.AdicionarMusicasFavoritas(musicas[13]);
+        //musicasPreferidasEmilly.AdicionarMusicasFavoritas(musicas[71]);
 
-        musicasPreferidasEmilly.ExibirMusicasFavoritas();
-        musicasPreferidasEmilly.GerarArquivoJson();
-        //musicas[0].ExibirFichaTecnica();
+        //musicasPreferidasEmilly.ExibirMusicasFavoritas();
+        //musicasPreferidasEmilly.GerarArquivoJson();
+
+        musicas[0].ExibirFichaTecnica();
+        musicas[1].ExibirFichaTecnica();
         //LinqFilter.FiltrarTodosOsGenerosMusicais(musicas);
         //LinqFilter.FiltrarArtistasPorGeneroMusical(musicas);
         //LinqFilter.FiltrarMusicasPorArtista(musicas);
