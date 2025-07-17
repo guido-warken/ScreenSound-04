@@ -35,6 +35,6 @@ internal class MusicasPreferidas
         string json = JsonSerializer.Serialize(new { nome = Nome, musicas = ListaDeMusicasFavoritas});
         string nomeArquivo = $"musicas-favoritas-{Nome}.json";
         File.WriteAllText(nomeArquivo, json);
-        Console.WriteLine("Arquivo json gerado com sucesso");
+        Console.WriteLine($"Arquivo json gerado com sucesso no caminho {Path.GetFullPath(nomeArquivo)}");
     }
 }
